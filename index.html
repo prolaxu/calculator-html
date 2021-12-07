@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calcutor</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,
+                                 maximum-scale=1.0, user-scalable=no">
+</head>
+<body>
+	<div class="container">
+		<div class="screen">
+			<input type="text" id="screen">
+
+		</div>
+		<div class="keys">
+			<table>
+				<tr>
+					<td id="id1" onclick="keyin(1)">1</td>
+					<td id="id2" onclick="keyin(2)">2</td>
+					<td id="id3" onclick="keyin(3)">3</td>
+					<td id="plus" onclick="keyin('+')">+</td>
+
+				</tr>
+				<tr>
+					<td id="id1" onclick="keyin(4)">4</td>
+					<td id="id2" onclick="keyin(5)">5</td>
+					<td id="id3" onclick="keyin(6)">6</td>
+					<td id="minus" onclick="keyin('-')">-</td>
+
+				</tr>
+				<tr>
+					<td id="id1" onclick="keyin(7)">7</td>
+					<td id="id2" onclick="keyin(8)">8</td>
+					<td id="id3" onclick="keyin(9)">9</td>
+					<td id="divide" onclick="keyin('/')">/</td>
+
+				</tr>
+				<tr>
+					<td id="id1" id="divide" onclick="keyin('.')" >.</td>
+					<td id="id2" id="divide" onclick="keyin(0)">0</td>
+					
+					<td id="equal" id="divide" onclick="calculate()">=</td>
+					<td id="del"  onclick="del()">Del</td>
+
+				</tr>
+			</table>
+			
+		</div>
+	</div>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

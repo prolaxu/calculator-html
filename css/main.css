@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: sans-serif;
+	margin-left: 10%;
+	margin-right: 10%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: skyblue;
+}
+.container{
+	background-color: lightgray; 
+	border-radius: 5px;
+	padding: 1rem;
+}
+table{
+	width: 100%;
+}
+td{
+	background-color: black;
+	color:white;
+	padding: .5rem .5rem .5rem .5rem;
+	border-radius: 5px;
+}
+#del{
+	background-color: red;
+}
+#screen{
+	background-color: white;
+	border: none;
+	border-bottom: 1px solid gray;
+	padding: .5rem;
+	border-radius: 5px;
+}
